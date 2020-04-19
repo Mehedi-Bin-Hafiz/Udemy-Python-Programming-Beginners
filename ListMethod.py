@@ -14,7 +14,7 @@ print(lis3)
 #list insert
 lis.insert(3,"new") #(first one is index number, second one is value)
 print(lis)
-#pop(param) method here param is a index number that of element that we want to remove. pop remove element permanently
+#pop(argu) method here param is a index number that of element that we want to remove. pop remove element permanently
 lis.pop(7)
 print("remove 7 position",lis)
 lis.reverse() #it reverse the list permanently
