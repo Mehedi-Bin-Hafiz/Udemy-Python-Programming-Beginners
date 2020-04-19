@@ -42,3 +42,4 @@ sord=sorted(sor) # sorted function return new list that's why we need to store i
 print(sord)
 
 
+
