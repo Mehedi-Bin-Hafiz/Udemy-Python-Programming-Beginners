@@ -19,8 +19,6 @@ print(a.issuperset({1,2,3}))
 #iteration of set
 for i in b:
     print(i)
-
-
 #sorted() function
 print(sorted(b)) #it produce sorted list
 
