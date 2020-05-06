@@ -60,7 +60,7 @@ Mehedi.information()
 
 
 Mahim=YoungerChild('Md.Mahim Hasan',14,5.5,'Student')
-Mahim.information()
+YoungerChild.information(Mahim)
 Mahim.phone()
 
 
