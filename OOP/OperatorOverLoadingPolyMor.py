@@ -28,20 +28,17 @@ class Addition:
         s3=Addition(m1,m2)
         return s3
 
-s1=Addition(2,4)
+s1=Addition(8,4)
 s2=Addition(5,3)
 
-
-print(type(s1)) # it produce class Student. now we can see which method Student contains
+s3=s1+s2
+print(s3.m2)
+# it produce class Student. now we can see which method Student contains
 
 #print(dir(s1)) # we can see there is no __add__(),sub etc method
 
 # so we can not add this s1,s2 object
 # lets try
 #print(s1+s2) #TypeError: unsupported operand type(s) for +: 'Student' and 'Student'
-
-s3 =s1+s2
-print(s3.m2)
-
 
 
