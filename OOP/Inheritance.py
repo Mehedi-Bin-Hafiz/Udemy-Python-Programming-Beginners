@@ -46,6 +46,7 @@ class YoungerChild(HafizurRahman):
         print('Age:', self.age)
         print('Height:', self.height)
         print('Occupation:', self.occupation)
+        #super().information() # if we want to call override function we can also by this way
     def ClassSeven(self):
         print("Mahim reads in class Seven")
 
