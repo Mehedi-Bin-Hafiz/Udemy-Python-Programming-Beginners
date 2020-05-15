@@ -5,3 +5,8 @@
 # vm allow packages to be installed in an isolated location for a particular application, rather than being installed globally.
 # the venv module provides support for creating virtual environments.
 # each virtual environment has its own python binary and can have its own independent set of installed python packages in its site directories.
+
+###########command for creating vm#################
+#python -m venv location\projectName
+# to active vm
+# source path/to/vir_env/bin/active
