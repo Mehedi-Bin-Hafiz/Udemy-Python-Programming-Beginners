@@ -1,10 +1,14 @@
 print(dir())
 # what is __name__
 print(__name__) #__name__ assign the value __main__
+# what is __main__ ans: main is a static point of execution.
 
-def hello():
-    print("hello world")
-print(dir())
 
-print("__name__ is ",__name__)
-hello()
+from ModulesAndPackages.NotMain import runme
+runme()
+
+print("but current function __name__ ",__name__)
+
+
+
+###
