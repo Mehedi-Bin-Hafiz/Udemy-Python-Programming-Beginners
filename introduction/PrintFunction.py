@@ -7,3 +7,7 @@ for  i in range(1,10):
     print(end='\n')
     for j in range(0,i):
         print(un,end='')
+
+
+
+print(print('Mehedi')) #When function not return any thing that time it return None value.   In python print( ) function has no return value so it print none
