@@ -14,3 +14,11 @@ print(delta.days)   ##note## weeks and days converted to days
 print(delta.seconds)  ##minutes hours converted to seconds
 print(delta.microseconds)  ## millisecond converted to microseconds
 
+#add two datetime objects
+
+dt1 = datetime(2019,7,1,12,23,46)
+dt2 = datetime(2020,7,1,12,23,46)
+
+dt3=dt1-dt2
+
+print(dt2+dt3) ##VVI
